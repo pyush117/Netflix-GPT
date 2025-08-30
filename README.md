@@ -27,6 +27,19 @@ If you are developing a production application, we recommend using TypeScript wi
  - created redux store with user slice
  - implemented sign out
  - update Profile
+ - BugFix: Sign up user displayName and profile picture update
+ - BugFix: if the user is not logged in redirect to /login Page and vice-versa
+ - unsubscribed to the onAuthStateChanged callback
+ - Register TMDB API and create an app and get access token
+ - Get Data from TMDB now playing movies list API
+ - Custom Hook for Now Playing Movies
+ - Create movieSlice
+ - update Store with movies Data
+ - Planning for mainContainer and secondary container
+ - Fetch data for trailer video
+ - update store with Trailer Video data
+ - Embeded the youtube video and make it autoplay and mute
+ - Tailwind classes to make main container look awesome
 
 
  # Features
